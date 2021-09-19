@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+body{
+    padding: 6px; /*Marco del modelo de caja por default de css, entre el marco y el texto*/
+    margin: 0px;
+}
+
+form{
+    /*background-color: rgba(0, 0, 205, 0.349);*/
+    width: 50%; /*Ancho*/
+    height: 400px; /*Altura*/
+    position: relative;
+    left: 25%; /*Desde la izquierda = 25%, ancho = 50%, derecha = 25%*/
+    top: 100px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px; /*Espaciado entre el texto y el marco*/
+    font-family: 'Dancing Script', cursive;
+}
+
+.inputs{
+    width: 60%; /*80% del formulario porque los inputs estan dentro del formulario*/
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 20%;
+    margin-top: 10px; /*Separacion entre los inputs*/
+    padding: 10px; /*Espaciado entre el texto y el marco*/
+    border-radius: 20px; /*Inputs redondeados*/
+    outline: none; /*Contorno de los input*/
+    /*background-color: rgba(25, 25, 112, 0.336); /*Color de los input*/
+    /*color: white; /*Color letra*/
+    font-size: 22px; /*Tamaño letra*/
+    font-family: 'Dancing Script', cursive;/*Link de google fonts para css*/
+}
+
+::placeholder{ /*Color del placeholder*/
+    color: blue;
+}
+
+
+.button{
+    position: relative;
+    border-radius: 20px;
+    width:  90%;
+    /*background-color: midnightblue;*/
+    /*color: white; /*Color de la fuente*/
+    cursor: pointer; /*Forma de cambiar el cursor sobre el boton*/
+}
+
+#btn_Enviaru {
+	top: 92px; /*Original 50px*/
+    /*left: 0%; /*Izquierda = 30%, ancho = 40%, derecha = 30%*/
+    right: 30%;
+    width:  30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#input4 {
+	top: 50px; /*Original 50px*/
+    left: 55%; /*Izquierda = 30%, ancho = 40%, derecha = 30%*/
+    width:  25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button:hover{ /*Cuando se pasa el mouse por encima*/
+    background-color: rgba(25, 25, 112, 0.651);
+}

@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+/*FrontEnd del Menu de navegacion*/
+
+ul{
+    list-style: none; /*Quita las viñetas de la lista*/
+}
+
+li{
+    display: inline-block; /*float: left desacomoda*/
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
